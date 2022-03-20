@@ -6,10 +6,10 @@ const ListProducts = ({children}) => {
         <div className="container-cards">
             <h2> {children} </h2>
 
-            <Card title='Remera' talle='XL' price={200}/>
-            <Card title='Pantalon' talle='L' price={100}/>
-            <Card title='Remera 2' talle='S' price={123}/>
-            <Card title='Musculosa' talle='M' price={444}/>
+            <Card title='GeForce GTX 1660 6GB MSI' marca='NVIDIA' price={130000}/>
+            <Card title='RX 570 4GB Asrock' marca='AMD' price={110000}/>
+            <Card title='RX 6700XT 12GB XFX' marca='AMD' price={195000}/>
+            <Card title='GeForce RTX2060 Super 8GB MSI' marca='NVIDIA' price={195000}/>
         </div>
     ) 
 }
